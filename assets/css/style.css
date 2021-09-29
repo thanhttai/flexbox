@@ -1,0 +1,421 @@
+
+section {
+	border: 1px solid black;
+	
+	margin-bottom: 30px;
+	height: 500px;
+	overflow: hidden;
+	color: white;
+}
+section .circle {
+	width: 1em;
+	height: 1em;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+section .circle-red {
+	background-color: #e74c3c;
+}
+section .circle-yellow {
+	background-color: #f1c40f;
+}
+section .circle-green {
+	background-color: #2ecc71;
+}
+section .header-bar {
+	display: flex;
+	align-items: center;
+	background-color: #828686;
+	height: 40px;
+    
+}
+section h1 {
+	font-size: 1em;
+	padding: 10px;
+	margin: 0;
+}
+.border{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    margin:40px;
+}
+/* challenge 1 */
+*{
+    margin: 0;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+
+#example1 {
+    display: flex;
+    position: relative;
+}
+#example1 .div2{
+    position: absolute;
+    right: 110px;
+    top: 0;
+}
+#example1 .div3 {
+    right: 0;
+    position: absolute;
+    top: 0;
+    
+}
+
+/* challenge 2*/
+#example2 {
+    display: flex;
+    position: relative;
+}
+
+#example2 .div2{
+    top: 100px;
+    position: absolute;
+    left: 50%;
+}
+#example2 .div3{
+    top: 200px;
+    position: absolute;
+    right: 0;
+}
+/* challenge 3*/
+#example3 .div1 {
+    width: 300px;
+    height: 300px;
+    background: #464444;
+    position: relative;
+    margin-top: 14px;
+}
+
+#example3 {
+    justify-content: center;
+    display: flex;
+    
+}
+
+#example3 .div2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+ /* challenge 4 */
+#example4 .div1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#example4 {
+    display: flex;
+}
+#example4 .div2 {
+    background-color: rgb(55, 52, 52);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: -50%;
+    right: -50%;
+    color: white;
+    z-index: 1;
+}
+/* challenge 5 */
+#example5{
+position: relative;
+}
+
+#example5 .div1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#example5 .div2{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+#example5 .div3{
+    position: absolute;
+    bottom: 41px;
+    left: 0;
+}
+
+
+
+/* challenge 6 */
+#example6{
+    position: relative;
+}
+
+#example6 .div1{
+    position:absolute;
+    bottom: 41px;
+    right:0;
+    width:44%;
+    height:50%;
+    background: #504d4d;
+}
+
+#example6 .div2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#example6 .div3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+/* challenge 7 */
+#example7{
+
+}
+#example7 .div1{
+position: relative;
+width: 20%;
+height: 50%;
+background: rgb(75, 71, 71)
+}
+
+
+#example7 .div2{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+/* challenge 8 */
+#example8{
+
+}
+#example8 .div1{
+position: relative;
+width: 20%;
+height: 50%;
+background: rgb(75, 71, 71)
+}
+
+
+#example8 .div2{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+/* challenge 9 */
+#example9{
+
+}
+#example9 .div1{
+position: relative;
+width: 20%;
+height: 74%;
+background: rgb(75, 71, 71)
+}
+
+
+#example9 .div2{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+#example9 .div3{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+/* challenge 10 */
+#example10{
+display: flex;
+justify-content: center;
+
+}
+#example10 .div1{
+position: relative;
+width: 60%;
+height: 70%;
+background: rgb(75, 71, 71);
+margin-top: 16px;
+}
+
+
+#example10 .div2{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+}
+#example10 .div3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(50% , -50%);
+}
+
+/* challenge 11*/
+#example11{
+display: flex;
+
+}
+#example11 .div1{
+position: relative;
+width: 20%;
+height: 70%;
+background: rgb(75, 71, 71);
+}
+
+
+#example11 .div2{
+width: 150px;
+height: 200px;
+position: absolute;
+bottom: 0px;
+right: 0;
+}
+#example11 .div3{
+background: #ddd9d9;
+position: absolute;
+bottom: 6px;
+right: 6px;   
+}
+
+/* challenge 12*/
+#example12{
+display: flex;
+
+}
+#example12 .div1{
+position: relative;
+width: 20%;
+height: 70%;
+background: rgb(75, 71, 71);
+}
+
+
+#example12 .div2{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: -75px;
+}
+#example12 .div3{
+    background: #ddd9d9;
+    position: absolute;
+    bottom: -50px;
+    right: 0;   
+}
+/* challenge 13*/
+#example13{
+display: flex;
+
+}
+#example13 .div1{
+    position:relative;
+}
+#example13 .div2{
+    position:absolute;
+    background: rgb(110 107 107);
+    bottom: -50%;
+    right:-50%;
+
+}
+#example13 .div3{
+    position:absolute;
+    bottom: -50%;
+    right:-50%;
+
+}
+#example13 .div4{
+    position:absolute;
+    background: rgb(110 107 107);
+    bottom: -50%;
+    right:-50%;
+
+}
+#example13 .div5{
+    position:absolute;
+    bottom: -50%;
+    right:-50%;
+
+}
+/* challenge 14*/
+#example14{
+display: flex;
+position: relative;
+
+}
+#example14 .div1{
+width: 24%;
+height: 50%;
+background: rgb(70 67 67);
+position:absolute;
+top:0;
+right: 0;
+}
+
+
+#example14 .div2{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+/* challenge 15*/
+#example15{
+display: flex;
+
+}
+#example15 .div1{
+position: relative;
+width: 24%;
+height: 50%;
+background: rgb(70 67 67);
+}
+
+
+#example15 .div2{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: -67%;
+    
+}
+#example15 .div3{
+    background: #000;
+    position: absolute;
+    top: -63%;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
+#example15 .div4{
+    position: relative;
+    width: 24%;
+    height: 50%;
+    background: rgb(70 67 67);
+    top: 158px;
+    right: -19px;
+}
+
